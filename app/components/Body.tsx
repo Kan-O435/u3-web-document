@@ -22,7 +22,7 @@ export default function Body() {
                 Microsoft Wordは、文書作成のための代表的なソフトウェアです。
               </p>
               <p className="text-black leading-relaxed">
-                大学ではしようする機会が多いので、ぜひ効率的に使えるようになってください。
+                大学では使用する機会が多いので、ぜひ効率的に使えるようになってください。
               </p>
             </section>
 
