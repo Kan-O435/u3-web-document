@@ -11,25 +11,14 @@ export default function PDFConversion() {
             Word文書をPDFに変換
           </h3>
           <p className="text-black leading-relaxed">
-            Word文書をPDF形式に変換する方法を説明します。「ファイル」→「エクスポート」→「PDF/XPSの作成」からPDFに変換できます。
-          </p>
-        </div>
+            文章ファイルを、ソフトやPCの環境によらず一様に閲覧できるようにします。欠点としてPDF化したテキストはそれ以上の変更ができません。<br />
+            章ファイルを、ソフトやPCの環境によらず一様に閲覧できるようにします。欠点として、PDF化したテキストはそれ以上の変更ができません。<br />
+            保存方法<br />
+            1. 「ファイル」タブを選択。<br />
+            2. 「エクスポート」→「PDF/XPSドキュメントの作成」の選択。<br />
+            3. 「PDF/XPFの作成」を押すと、保存場所を選ぶウィンドウが表示される。<br />
+            4. ファイルの種類が「PDF(*.pdf)」になっていることを確認して「保存/発行」を押す。<br />
 
-        <div className="bg-white p-6 rounded-lg border border-gray-200">
-          <h3 className="text-xl font-semibold text-black mb-3">
-            PDFをWord文書に変換
-          </h3>
-          <p className="text-black leading-relaxed">
-            PDFファイルをWord文書に変換する方法を説明します。「ファイル」→「開く」からPDFファイルを選択し、Wordで開くことができます。
-          </p>
-        </div>
-
-        <div className="bg-white p-6 rounded-lg border border-gray-200">
-          <h3 className="text-xl font-semibold text-black mb-3">
-            PDFの編集
-          </h3>
-          <p className="text-black leading-relaxed">
-            PDFファイルをWordで開いて編集する際の注意点や制限事項について説明します。
           </p>
         </div>
       </div>
