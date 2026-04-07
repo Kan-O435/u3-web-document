@@ -14,6 +14,11 @@ export default function FileOperations() {
             新しい文書を作成する方法を説明します。<br />
             Wrodを開いた後、スタート画面でテンプレートから選んで作成することができます。
           </p>
+          <video
+            src="/videos/1-1新規作成.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-1-2" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -27,6 +32,11 @@ export default function FileOperations() {
             3. 適切な保存場所、ファイル名を入力し、保存をクリックします<br />
 
           </p>
+          <video
+            src="/videos/1-2ファイルに名前を付けて保存.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-1-3" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -41,6 +51,11 @@ export default function FileOperations() {
             これらの操作は
             <kbd className="px-2 py-1 bg-gray-200 rounded text-black text-sm font-medium">Ctrl + S</kbd>（Macの場合は<kbd className="px-2 py-1 bg-gray-200 rounded text-black text-sm font-medium">Cmd + S</kbd>）で上書き保存できます。
           </p>
+          <img
+            src="/photo/上書き保存.png"
+            alt="上書き保存"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-1-4" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
