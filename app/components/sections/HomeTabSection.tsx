@@ -88,6 +88,11 @@ export default function HomeTabSection() {
                 <p className="text-black">通常のテキスト x²（上付き）</p>
                 <p className="text-black">通常のテキスト H₂O（下付き）</p>
               </div>
+              <img
+                src="/photo/ホームタブ/上付き文字下付き文字.png"
+                alt="上付き文字下付き文字"
+                className="mt-4 w-full rounded-lg"
+              />
             </div>
           </div>
         </div>
@@ -115,6 +120,11 @@ export default function HomeTabSection() {
 
 
           </p>
+          <img
+            src="/photo/ホームタブ/フォント.png"
+            alt="フォント"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-2-3" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -133,6 +143,11 @@ export default function HomeTabSection() {
             <p className="text-center text-black">中央揃えのテキスト</p>
             <p className="text-right text-black">右揃えのテキスト</p>
           </div>
+          <img
+            src="/photo/ホームタブ/左右中央揃え.png"
+            alt="左右中央揃え"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-2-4" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -159,8 +174,13 @@ export default function HomeTabSection() {
               ・[Shift] + [Enter]キー：新しい箇条書きや次の段落番号は表示せずに改行する。段落番号は変わらない<br />
               ・[Tab]キー：階層のレベルを下げる<br />
               ・[Shift] + [Tab]キー：階層のレベルを上げる<br />
-                
+
           </p>
+          <video
+            src="/videos/ホームタブ/アウトライン.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-2-5" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -175,6 +195,11 @@ export default function HomeTabSection() {
             3. 「段落」ウィンドウが表示され、「間隔」内の「行間」で行間を調整することができる<br />
 
           </p>
+          <img
+            src="/photo/ホームタブ/行間設定.png"
+            alt="行間設定"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-2-6" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -197,6 +222,11 @@ export default function HomeTabSection() {
             ・左インデントは、左側の調整ができ、一行目と一行目以外の行をまとめて動かすことができます。右インデントは右側の調整ができ、左インデントと機能は同じです。<br />
 
           </p>
+          <img
+            src="/photo/ホームタブ/インデント.png"
+            alt="インデント"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
       </div>
     </section>
