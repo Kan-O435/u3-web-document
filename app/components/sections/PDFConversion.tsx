@@ -20,6 +20,11 @@ export default function PDFConversion() {
             4. ファイルの種類が「PDF(*.pdf)」になっていることを確認して「保存/発行」を押す。<br />
 
           </p>
+          <video
+            src="/videos/PDF変換.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
       </div>
     </section>
