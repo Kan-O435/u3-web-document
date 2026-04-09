@@ -11,6 +11,7 @@ export default function SearchReplace() {
       <img
         src="/photo/検索置換.png"
         alt="検索置換"
+        loading="lazy"
         className="mt-4 w-full rounded-lg"
       />
       

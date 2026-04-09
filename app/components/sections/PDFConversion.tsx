@@ -23,6 +23,7 @@ export default function PDFConversion() {
           <video
             src="/videos/PDF変換.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>

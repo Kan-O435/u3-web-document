@@ -91,6 +91,7 @@ export default function HomeTabSection() {
               <img
                 src="/photo/ホームタブ/上付き文字下付き文字.png"
                 alt="上付き文字下付き文字"
+                loading="lazy"
                 className="mt-4 w-full rounded-lg"
               />
             </div>
@@ -123,6 +124,7 @@ export default function HomeTabSection() {
           <img
             src="/photo/ホームタブ/フォント.png"
             alt="フォント"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -146,6 +148,7 @@ export default function HomeTabSection() {
           <img
             src="/photo/ホームタブ/左右中央揃え.png"
             alt="左右中央揃え"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -179,6 +182,7 @@ export default function HomeTabSection() {
           <video
             src="/videos/ホームタブ/アウトライン.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -198,6 +202,7 @@ export default function HomeTabSection() {
           <img
             src="/photo/ホームタブ/行間設定.png"
             alt="行間設定"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -225,6 +230,7 @@ export default function HomeTabSection() {
           <img
             src="/photo/ホームタブ/インデント.png"
             alt="インデント"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>

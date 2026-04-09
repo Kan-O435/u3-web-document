@@ -21,6 +21,7 @@ export default function LayoutReferencesTab() {
           <img
             src="/photo/レイアウトタブ/余白.png"
             alt="余白"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -40,6 +41,7 @@ export default function LayoutReferencesTab() {
           <img
             src="/photo/レイアウトタブ/図表番号の挿入.png"
             alt="図表番号の挿入"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -57,6 +59,7 @@ export default function LayoutReferencesTab() {
           <img
             src="/photo/レイアウトタブ/グループ化.png"
             alt="グループ化"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
