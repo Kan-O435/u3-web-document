@@ -18,6 +18,11 @@ export default function LayoutReferencesTab() {
             3. 定義済みの余白に目的のものがない場合、一覧の下にある「ページ設定の余白」から自分で設定した余白を用いることができます。
 
           </p>
+          <img
+            src="/photo/レイアウトタブ/余白.png"
+            alt="余白"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-4-2" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -32,6 +37,11 @@ export default function LayoutReferencesTab() {
             3. 「図表番号」からタイトルを記入、「ラベル」からラベルの種類を選択(目的のラベルがなければ「ラベル名」から新しいラベルを登録できる)。「位置」から図表番号を付ける位置を設定できる。<br />
 
           </p>
+          <img
+            src="/photo/レイアウトタブ/図表番号の挿入.png"
+            alt="図表番号の挿入"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-4-3" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -44,6 +54,11 @@ export default function LayoutReferencesTab() {
             2. 右クリックして「グループ化」→「グループ化」を選択。<br />
             3. グループ化を解除したいときは、「グループ化」→「グループ解除」を選択すると解除されます。
           </p>
+          <img
+            src="/photo/レイアウトタブ/グループ化.png"
+            alt="グループ化"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
       </div>
     </section>
