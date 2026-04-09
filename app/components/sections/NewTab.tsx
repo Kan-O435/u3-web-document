@@ -32,8 +32,13 @@ export default function NewTab() {
             1. 「挿入」タブを選択<br />
             2. 「図」内の「表」アイコンをクリック<br />
             3. 挿入したい表の行列数を選択。後から増やすこともできる。<br />
-          
+
           </p>
+          <img
+            src="/photo/挿入タブ/表の挿入.png"
+            alt="表の挿入"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-3-3" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -50,8 +55,12 @@ export default function NewTab() {
             <br />
             Windowsでは、図形を選択したとき、右上に「文字列の折り返し」アイコンが表示されるので、そこからでも文字列の折り返しを行うことができます。大学では、図・票の挿入をすると同時に図表番号の挿入をよく行います。図表番号の挿入に関しては参考資料タブのほうで取り扱っています。
 
-
           </p>
+          <img
+            src="/photo/挿入タブ/文字列の折り返し.png"
+            alt="文字列の折り返し"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-3-4" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -59,7 +68,8 @@ export default function NewTab() {
             3.4 数式の挿入
           </h3>
           <p className="text-black leading-relaxed">
-            1. 数式の昨日を用いることで、分数表示やインテグラルなどの数式を文書に追加することができます。実験レポートでは必要スキルの一つとなています。意図した通りの数式が挿入できるように、必ず使い方を覚えておきましょう。<br />
+            1. 数式の挿入<br />
+            数式の機能を用いることで、分数表示やインテグラルなどの数式を文書に追加することができます。実験レポートでは必要スキルの一つとなています。意図した通りの数式が挿入できるように、必ず使い方を覚えておきましょう。<br />
             「挿入」タブを選択
             「記号と特殊文字」内の「数式」を選択<br />
             書式を挿入する枠が出現するので、そこに数式を入力する<br />
@@ -73,6 +83,11 @@ export default function NewTab() {
             ＊キーボードの入力は「数式ツール、デザイン」タブへ移動する必要なく、特殊な記号を入力することができます。よく使う記号のショートカットを覚えておくと数式の作成時間をかなり短縮することができます。<br />
 
           </p>
+          <img
+            src="/photo/挿入タブ/数式の挿入.png"
+            alt="数式の挿入"
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-3-5" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -83,6 +98,11 @@ export default function NewTab() {
             1. 数式の最後に#(任意の数字)を入力する<br />
             2. Enterを押し、数式番号を付ける
           </p>
+          <video
+            src="/videos/挿入タブ/数式番号の挿入.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
 
         <div id="section-3-6" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
@@ -99,6 +119,11 @@ export default function NewTab() {
             4. 「ヘッダー/フッターツール」を閉じる場合は、「ヘッダー/フッターツール、デザイン」タブの右にある「ヘッダーとフッターを閉じる」から行う。<br />
 
           </p>
+          <video
+            src="/videos/挿入タブ/ヘッダーとフッター.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
         </div>
       </div>
     </section>
