@@ -27,15 +27,12 @@ export default function FormulaBarShortcuts() {
             5. 「割り当て」をクリックして設定を完了します。
           </p>
         </div>
+          <video
+            src="/videos/数式ショートカットの設定.mp4"
+            controls
+            className="mt-4 w-full rounded-lg"
+          />
 
-        <div className="bg-white p-6 rounded-lg border border-gray-200">
-          <h3 className="text-xl font-semibold text-black mb-3">
-            よく使う数式バーのショートカット
-          </h3>
-          <p className="text-black leading-relaxed">
-            数式バーでよく使用されるショートカットキーとその設定方法について説明します。
-          </p>
-        </div>
       </div>
     </section>
   );

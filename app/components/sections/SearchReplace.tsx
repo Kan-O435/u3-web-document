@@ -7,6 +7,12 @@ export default function SearchReplace() {
       <h3 className="text-base font-semibold text-black mb-3">
         文書作成後に見直しを行うと、文字の変換間違いや図表番号のずれを発見するる場合があります。その際に、いちいち操作すると見逃しなどのミスを起こしやすいです。文書内である一定の文字列を探したい場合は検索を用いると、文書内の当てはまる部分を全て調べてくれます。さらに、検索した文字列を別の文字列に置き換えることもできます。検索と置換を使うことによって、より効率的に文書作成を行うことができます。
       </h3>
+
+      <img
+        src="/photo/検索置換.png"
+        alt="検索置換"
+        className="mt-4 w-full rounded-lg"
+      />
       
       <div className="space-y-8">
         <div id="section-5-1" className="bg-white p-6 rounded-lg border border-gray-200 scroll-mt-20">
