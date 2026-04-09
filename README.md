@@ -1,37 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# U3: Microsoft Word 使用方法ガイド
 
-## Getting Started
+U3のWord講座向けに作成した、Microsoft Wordの使い方をまとめたWebサイトです。
+大学生が特によく使う機能を中心に、画像や動画つきで解説しています。
 
-First, run the development server:
+---
+
+## このサイトでできること
+
+| セクション | 内容 |
+|---|---|
+| 1. ファイル操作 | 新規作成・保存・開く |
+| 2. ホームタブ | フォント・太字・斜体・下線・揃え・行間・ルーラーなど |
+| 3. 挿入タブ | 図・表・数式・ヘッダーフッターの挿入 |
+| 4. レイアウト・参考資料タブ | 余白・図表番号・グループ化 |
+| 5. 検索・置換 | 文書内の文字を検索・置き換え |
+| 6. PDF変換 | WordファイルをPDFとして書き出す |
+| 7. 数式バーのショートカット設定 | よく使う数式のショートカットを登録する方法 |
+| 8. よく使うショートカットキー一覧 | コピー・保存・太字など基本操作のまとめ |
+
+---
+
+## セットアップ方法
+
+### 必要なもの
+
+- **Node.js**（バージョン18以上推奨）  
+  インストールされていない場合は [nodejs.org](https://nodejs.org/) からダウンロードしてください。
+
+### 手順
+
+**1. このリポジトリをクローン（ダウンロード）する**
+
+```bash
+git clone <このリポジトリのURL>
+cd u3-web-document
+```
+
+**2. 必要なパッケージをインストールする**
+
+```bash
+npm install
+```
+
+> `npm install` はプロジェクトを動かすために必要なライブラリを自動でダウンロードするコマンドです。
+
+**3. 開発サーバーを起動する**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**4. ブラウザで開く**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ターミナルに `http://localhost:3000` と表示されたら、ブラウザでそのURLを開いてください。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ファイル構成（コンポーネントとWordタブの対応）
 
-To learn more about Next.js, take a look at the following resources:
+このプロジェクトはコンポーネントという部品を組み合わせてページを作っています。
+どのファイルがWordのどの機能に対応しているかを以下にまとめています。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/
+├── page.tsx                          ← サイト全体のエントリーポイント（ここから始まる）
+├── layout.tsx                        ← ページ全体の枠組み（タイトルタグなど）
+├── globals.css                       ← サイト全体のスタイル
+│
+└── components/
+    ├── Header.tsx                    ← ページ上部のタイトルバー
+    ├── Footer.tsx                    ← ページ下部（お問い合わせ案内）
+    ├── Body.tsx                      ← 各セクションを並べるレイアウト
+    ├── TableOfContents.tsx           ← 右側に表示される目次
+    │
+    └── sections/                     ← 各セクションの本体（ここを主に編集する）
+        ├── FileOperations.tsx        ← 1. ファイル操作（新規作成・保存・開く）
+        ├── HomeTabSection.tsx        ← 2. ホームタブ（フォント・揃え・行間など）
+        ├── NewTab.tsx                ← 3. 挿入タブ（図・表・数式・ヘッダーフッター）
+        ├── LayoutReferencesTab.tsx   ← 4. レイアウト・参考資料タブ（余白・図表番号）
+        ├── SearchReplace.tsx         ← 5. 検索・置換
+        ├── PDFConversion.tsx         ← 6. PDF変換
+        ├── FormulaBarShortcuts.tsx   ← 7. 数式バーのショートカット設定
+        └── CommonShortcuts.tsx       ← 8. よく使うショートカットキー一覧
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> **補足**: `app/components/tabs/` 以下（HomeTab.tsx、InsertTab.tsx など）は現在使用されていません。
 
-## Deploy on Vercel
+### 画像・動画ファイルの場所
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+public/
+├── photo/          ← スクリーンショット画像（.png）
+│   ├── ホームタブ/
+│   ├── 挿入タブ/
+│   └── レイアウトタブ/
+└── videos/         ← 操作説明動画（.mp4）
+    ├── ホームタブ/
+    └── 挿入タブ/
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# u3-web-document
+---
+
+## コンテンツを編集するには
+
+### テキストを変更したい場合
+
+`app/components/sections/` の中の対応するファイルを開いて、テキスト部分を書き換えてください。
+
+例：ホームタブの説明を変えたい → `HomeTabSection.tsx` を編集する
+
+### 画像を差し替えたい場合
+
+`public/photo/` の中の画像ファイルを同じファイル名で上書きするだけでOKです。
+
+### 動画を差し替えたい場合
+
+`public/videos/` の中の動画ファイルを同じファイル名で上書きしてください。
+
+---
+
+## 使用技術
+
+| 技術 | 用途 |
+|---|---|
+| [Next.js](https://nextjs.org/) | Reactベースのフレームワーク（サイト全体の土台） |
+| [React](https://react.dev/) | UIを部品（コンポーネント）として管理するライブラリ |
+| [Tailwind CSS](https://tailwindcss.com/) | クラス名でスタイルを当てるCSSフレームワーク |
+| TypeScript | JavaScriptに型を追加した言語 |
+
+---
+
+## お問い合わせ
+
+質問がある場合は、U3公式LINEまでお問い合わせください。
