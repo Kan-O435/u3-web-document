@@ -26,12 +26,13 @@ export default function FormulaBarShortcuts() {
             4. 「新しいショートカットキー」に希望のキーを入力します。<br />
             5. 「割り当て」をクリックして設定を完了します。
           </p>
-        </div>
           <video
             src="/videos/数式ショートカットの設定.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
+        </div>
 
       </div>
     </section>

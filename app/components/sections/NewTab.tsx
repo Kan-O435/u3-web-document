@@ -37,6 +37,7 @@ export default function NewTab() {
           <img
             src="/photo/挿入タブ/表の挿入.png"
             alt="表の挿入"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -59,6 +60,7 @@ export default function NewTab() {
           <img
             src="/photo/挿入タブ/文字列の折り返し.png"
             alt="文字列の折り返し"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -86,6 +88,7 @@ export default function NewTab() {
           <img
             src="/photo/挿入タブ/数式の挿入.png"
             alt="数式の挿入"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -101,6 +104,7 @@ export default function NewTab() {
           <video
             src="/videos/挿入タブ/数式番号の挿入.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -122,6 +126,7 @@ export default function NewTab() {
           <video
             src="/videos/挿入タブ/ヘッダーとフッター.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>

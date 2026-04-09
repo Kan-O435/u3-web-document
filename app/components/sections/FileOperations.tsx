@@ -17,6 +17,7 @@ export default function FileOperations() {
           <video
             src="/videos/1-1新規作成.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -35,6 +36,7 @@ export default function FileOperations() {
           <video
             src="/videos/1-2ファイルに名前を付けて保存.mp4"
             controls
+            preload="none"
             className="mt-4 w-full rounded-lg"
           />
         </div>
@@ -54,6 +56,7 @@ export default function FileOperations() {
           <img
             src="/photo/上書き保存.png"
             alt="上書き保存"
+            loading="lazy"
             className="mt-4 w-full rounded-lg"
           />
         </div>
