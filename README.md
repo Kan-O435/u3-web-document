@@ -5,6 +5,9 @@ U3のWord講座向けに作成した、Microsoft Wordの使い方をまとめた
 
 ---
 
+該当サイト
+https://u3-web-document.vercel.app/
+
 ## このサイトでできること
 
 | セクション | 内容 |
